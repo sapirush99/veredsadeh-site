@@ -1,0 +1,54 @@
+
+body.dark-mode {
+    font-family: 'Arial', sans-serif;
+    background-color: #1A1D2A;
+    color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+
+a { color: #F4D58D; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+nav.lang-bar {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #2C2F3A;
+}
+
+nav.lang-bar a {
+    margin-left: 10px;
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+nav.lang-bar a.active {
+    color: #F4D58D;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242630;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.hero-content h1 {
+    color: #F4D58D;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    color: #D6BFAF;
+    font-size: 1.2em;
+}
+
+.profile-img {
+    max-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    margin-top: 20px;
+}
